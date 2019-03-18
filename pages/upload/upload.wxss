@@ -1,0 +1,5 @@
+/* pages/upload/upload.wxss */
+#responseTxt {
+  color: red;
+  text-align: center;
+}

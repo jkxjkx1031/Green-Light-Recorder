@@ -1,0 +1,21 @@
+<!--upload.wxml-->
+<view  class='page'>
+  <view class='container'>
+    <form bindsubmit='formSubmit' class='block'>
+      <view>
+        <label>用户名：</label>
+        <input name='username' placeholder='在此输入用户名'/>
+      </view>
+      <view>
+        <label>密码：</label>
+        <input name='password' placeholder='在此输入密码' password='true'/>
+      </view>
+      <view class='block'>
+        <button form-type='submit'>上传</button>
+      </view>
+      <view>
+        <text id='responseTxt' hidden='{{txtHidden}}'>{{responseTxt}}</text>
+      </view>
+    </form>
+  </view>
+</view>

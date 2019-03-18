@@ -1,0 +1,12 @@
+/**index.wxss**/
+#label {
+  line-height: 200rpx
+}
+
+#steps {
+  font-size: 100rpx;
+}
+
+#date {
+  font-size: 34rpx;
+}
